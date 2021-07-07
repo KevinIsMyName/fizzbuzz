@@ -1,0 +1,8 @@
+| Language   | Runtime                                                                        | Execution Time (User) | Command(s)                                                   |
+| ---------- | ------------------------------------------------------------------------------ | --------------------- | ------------------------------------------------------------ |
+| Python     | Python 3.8.3 [GCC 7.3.0] :: Anaconda, Inc. on linux                                         |                       | `python fizzbuzz.py`                                         |
+| C          | gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04)(Ubuntu 9.3.0-17ubuntu1~20.04) |                       | `gcc fizzbuzz.c -o ./out/fizzbuzzc && ./out/fizzbuzzc`       |
+| C++        | g++ (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0                                       |                       | `g++ fizzbuzz.cpp -o ./out/fizzbuzzcpp && ./out/fizzbuzzcpp` |
+| Java       | OpenJDK Runtime Environment (build 1.8.0_292-8u292-b10-0ubuntu1~20.04-b10      |                       | `javac fizzbuzz.java -d out && java -cp ./out fizzbuzz`      |
+| JavaScript | Node.js v12.22.2.                                                              |                       | `tsc -outDir out fizzbuzz.ts && node ./out/fizzbuzz.js`      |
+| Golang     | go version go1.16.5 linux/amd64                                                |                       | `go run fizzbuzz.go`                                         |
